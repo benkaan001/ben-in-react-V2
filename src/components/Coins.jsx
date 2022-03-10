@@ -1,6 +1,7 @@
 import React from 'react';
 import CoinItem from './CoinItem';
 import styled from 'styled-components';
+import { mobile } from '../mobileScreen';
 
 const Container = styled.div`
   max-width: 1140px;
@@ -19,6 +20,9 @@ const Heading = styled.div`
   font-weight: 700;
   text-transform: uppercase;
 `;
+const Hide = styled.p`
+  ${mobile({ display: 'none' })}
+`;
 
 const Coins = (props) => {
   return (
@@ -28,9 +32,9 @@ const Coins = (props) => {
           <p>#</p>
           <p>Coin</p>
           <p>Price</p>
-          <p>24hr</p>
-          <p>Volume</p>
-          <p>Market Cap</p>
+          <p>24hr-change</p>
+          <Hide>24hr-Volume</Hide>
+          <Hide>Market Cap</Hide>
         </Heading>
         {props.coins.map((coin) => {
           return <CoinItem coins={coin} key={coin.id} />;
