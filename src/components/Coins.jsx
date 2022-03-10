@@ -2,6 +2,8 @@ import React from 'react';
 import CoinItem from './CoinItem';
 import styled from 'styled-components';
 import { mobile } from '../mobileScreen';
+import { Link } from 'react-router-dom';
+import Coin from '../pages/Coin';
 
 const Container = styled.div`
   max-width: 1140px;
@@ -37,7 +39,11 @@ const Coins = (props) => {
           <Hide>Market Cap</Hide>
         </Heading>
         {props.coins.map((coin) => {
-          return <CoinItem coins={coin} key={coin.id} />;
+          return (
+            <Link to={`/coin/${coin.id}`} element={<Coin />} key={coin.id}>
+              <CoinItem coins={coin} />
+            </Link>
+          );
         })}
       </div>
     </Container>

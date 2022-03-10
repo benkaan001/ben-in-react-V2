@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { FaCoins } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Container = styled.div`
   display: flex;
@@ -20,15 +21,17 @@ const HeaderStyle = styled.span`
 
 const NavBar = () => {
   return (
-    <Container>
-      <Icon>
-        <FaCoins />
-      </Icon>
-      <Header>
-        {' '}
-        <HeaderStyle> React </HeaderStyle> Coin{' '}
-      </Header>
-    </Container>
+    <Link to='/'>
+      <Container>
+        <Icon>
+          <FaCoins />
+        </Icon>
+        <Header>
+          {' '}
+          <HeaderStyle> React </HeaderStyle> Coin{' '}
+        </Header>
+      </Container>
+    </Link>
   );
 };
 
