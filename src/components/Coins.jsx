@@ -20,7 +20,8 @@ const Heading = styled.div`
   margin: 2rem 1rem;
   padding: 0.7rem 1rem;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  color: whitesmoke;
 `;
 const Hide = styled.p`
   ${mobile({ display: 'none' })}
@@ -34,8 +35,8 @@ const Coins = (props) => {
           <p>#</p>
           <p>Coin</p>
           <p>Price</p>
-          <p>24hr-change</p>
-          <Hide>24hr-Volume</Hide>
+          <p>24h Change</p>
+          <Hide>24h Volume</Hide>
           <Hide>Market Cap</Hide>
         </Heading>
         {props.coins.map((coin) => {

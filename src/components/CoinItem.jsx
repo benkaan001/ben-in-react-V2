@@ -18,6 +18,11 @@ const Container = styled.div`
     transition: 0.1s ease-in-out;
   }
 `;
+const Number = styled.p`
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: whitesmoke;
+`;
 
 const ImageWrapper = styled.div`
   display: flex;
@@ -37,7 +42,7 @@ const Hide = styled.p`
 const CoinItem = ({ coins }) => {
   return (
     <Container>
-      <p>{coins.market_cap_rank}</p>
+      <Number>{coins.market_cap_rank}</Number>
       <ImageWrapper>
         <CoinImage src={coins.image} alt='coin symbol' />
         <p>{coins.symbol.toUpperCase()}</p>
