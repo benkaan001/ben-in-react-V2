@@ -5,11 +5,12 @@ import styled from 'styled-components';
 import DOMPurify from 'dompurify';
 
 const Header = styled.h1`
-  font-family: 'Libre Barcode 39 Extended Text', cursive;
+  font-family: 'Monoton', 'Libre Barcode 39 Extended Text', cursive;
   text-transform: uppercase;
   letter-spacing: 1rem;
   font-size: 3rem;
   font-weight: 500;
+  color: whitesmoke;
 `;
 
 const CoinContainer = styled.div`
@@ -100,6 +101,7 @@ const About = styled.div`
   h3 {
     margin: 1rem 0;
     text-align: center;
+    color: whitesmoke;
   }
 `;
 
