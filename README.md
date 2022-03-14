@@ -1,12 +1,10 @@
-<h1 align="center">REACT FrontEnd</h1>
+<h1 align="center">REACT</h1>
 <h3 align="center">React Coin</h3>
 
 <p align="center">
-
-    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
     <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white" />
-
+    <img src="https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white"/>
 </p>
 
 ## Table of Contents
@@ -29,7 +27,7 @@
 
 ## Tests
 
-![demo gif](https://github.com/benkaan001/gym-joy/blob/main/assets/HALO-UI-desktop.gif)
+![demo gif](https://github.com/benkaan001/react-coin/blob/main/assets/reactCoin.gif)
 
 ## Contributing
 
