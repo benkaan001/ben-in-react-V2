@@ -3,7 +3,9 @@
 
 <p align="center">
 
-    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB">
+    <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+    <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Bitcoin-000?style=for-the-badge&logo=bitcoin&logoColor=white" />
 
 </p>
 
@@ -19,7 +21,7 @@
 
 ## Description
 
-- Simple front-end-only React application that fetches data from CoinGecko(`https://www.coingecko.com/en/api`).
+- Simple front-end-only React application that fetches data from [CoinGecko](https://www.coingecko.com/en/api).
 
 ## Installation
 
